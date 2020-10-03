@@ -1,0 +1,337 @@
+*{
+    margin:0;
+    padding:0;
+}
+.right-menu li
+{
+    display: inline-block;
+    margin-top: 30px !important;
+}
+.right-menu li .fa
+{
+    font-size: 18px ;
+    margin-right: 10px ;
+    cursor: pointer ;
+}
+.nav-item::before
+{
+    content: '';
+    width: 2px;
+    height: 25px;
+    background:#D87E12;
+    top: 40px;
+    position: absolute;
+}
+
+.navbar-brand img
+{
+    width: 160px;
+}
+.header
+{
+    background: #FCF0E6;
+    margin-bottom: 80px;
+}
+.navbar-brand
+{
+    left: 48%;
+    top: -18px;
+    transform: translateX(-48%);
+    position: absolute;
+}
+.navbar
+{
+    padding: 0 35px !important;
+}
+.banner-img
+{   margin: 20px 90px;
+    width: 50%;
+}
+.banner-img img
+{
+    width: 100%;
+    margin-bottom: -90px;
+}
+.banner
+{
+    position: realtive;
+}
+.banner-title
+{
+    position: absolute;
+    left: 50%;
+    top: 43%;
+}
+.banner-title h1
+{
+    font-size: 40px;
+    background: rgba(0,0,0,0.75);
+    color: #fff;
+    line-height: 60px;
+    padding: 0px 10px 0 10px;
+}
+/*------FASHION TRENDS------*/
+.Fashion-trends
+{
+    padding: 70px 0;
+}
+.titlt-style h1
+{
+    padding: 40px 0;
+}
+.title-style
+{
+    margin: 0 auto 70px;
+    height: 90px;
+    width: 60%;
+    max-width: 650px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+}
+.title-style::after
+{
+    content: '';
+    height: 80px;
+    width: 150px;
+    background-color: #D87E12;
+    position: absolute;
+    top: -8px;
+    left: -9px;
+    z-index: -1;
+    
+}
+.title-style::before
+{
+    content: '';
+    height: 80px;
+    width: 150px;
+    background-color: #D87E12;
+    position: absolute;
+    bottom: -8px;
+    right: -9px;
+    z-index: -1;
+    
+}
+.trending-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.trending-img img
+{
+    width: 100%;
+}
+.btn-buy
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: #FCF0E6;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition:.6s;
+    opacity: 0;
+    z-index: 1;
+    
+}
+.trending-img:hover .btn-buy
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.overlay
+{
+    height:0%;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    opacity: .5;
+    transition: .5s;
+    
+}
+.trending-img:hover .overlay
+{
+    opacity: .5;
+    height: 100%;
+}
+/*----------offer----------*/
+.offer
+{
+    background-image: url("photo/image.jpg");
+    background-size: cover;
+    background-position:center;
+}
+.row 
+{
+    margin: initial !important;
+}
+.subscribe
+{
+    max-width: 450px;
+    margin-top: 30px;
+    padding: 60px;
+    background-color: #ffffff8c;
+    margin-bottom: 10px;
+}
+.subscribe a
+{
+    width: 100px;
+    display: block;
+    color: #fff !important;
+    background: #000;
+    text-decoration: none !important;
+    padding: 5px;
+    text-align: center;
+}
+
+/*--------fashion blog-----*/
+.fashion-blog
+{
+     margin-top: 30px;
+
+   
+}
+.blog-img
+{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.blog-img img
+{
+    width: 100%;
+    height: 100%;
+}
+.fashion-blog h5
+{
+    margin-top: 30px;
+    font-weight: 750;
+}
+/*------------fashion brands--------*/
+.fashion-brands
+{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.brand-logo
+{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 40px auto 20px;
+    box-shadow: 0 3px 40px 0 rgba(110,130,208,.18);
+    
+}
+.brand-logo img
+{
+    width: 150px;
+    margin: 50px auto;
+}
+.fashion-brands p
+{
+    margin-top: 30px;
+    font-weight: bold;
+}
+/*------------footer-----------*/
+.footer
+{
+    margin-top: 150px;
+    background: #f5f6fc;
+}
+.payment,.insta-img,.app-download
+{
+    margin: 50px auto;
+}
+.payment img
+{
+    width: 300px;
+    cursor: pointer;
+}
+.insta-img img
+{
+    width: 75px;
+    padding: 5px;
+    cursor: pointer;
+}
+.app-download img
+{
+    width: 200px;
+}
+.footer-icons
+{
+    text-align: right;
+}
+.footer-icons .fa
+{
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+.footer h5
+{
+    margin-bottom: 50px;
+}
+.footer h5::before
+{
+    content: '';
+    width: 85px;
+    height: 4px;
+    background:#D87E12;
+    top: 80px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
